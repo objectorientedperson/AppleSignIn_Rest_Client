@@ -1,3 +1,5 @@
+package com.smartral.apple_signin;
+
 import com.google.gson.Gson;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

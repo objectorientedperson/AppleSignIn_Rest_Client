@@ -1,3 +1,5 @@
+package com.smartral.apple_signin;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;

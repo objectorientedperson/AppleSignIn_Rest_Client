@@ -1,3 +1,5 @@
+package com.smartral.apple_signin;
+
 import java.util.HashMap;
 import java.util.Map;
 

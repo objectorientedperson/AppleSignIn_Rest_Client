@@ -11,12 +11,12 @@ Usage:
 
         String keyFilePath = Main.class.getClassLoader().getResource("CERTIFICATE_PATH").getPath();
 
-        Apple_SignIn appSignIn = new Apple_SignIn(
+        com.smartral.apple_signin.Apple_SignIn appSignIn = new com.smartral.apple_signin.Apple_SignIn(
                 issTeamId,
                 subClientId,
                 keyId,
                 redirectUrl,
                 keyFilePath);
 
-        Apple_SignedIn_UserData data = appSignIn.getUserData("AUTHORIZATION_CODE_FROM_CLIENT");
+        com.smartral.apple_signin.Apple_SignedIn_UserData data = appSignIn.getUserData("AUTHORIZATION_CODE_FROM_CLIENT");
         System.out.println(data == null ? "null" : data.email);
